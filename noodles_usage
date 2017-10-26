@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Usage</title>
+</head>
+<body style="background-color: #c8dff1">
+
+<!--Banner-->
+<header>
+<h1 class="heading" style="background-image: url('https://www.webstaurantstore.com/images/products/main/65795/385621/elbow-macaroni-20-1-lb-bags-case.jpg');color:white;font-size:60px;"><br></br>Usage</h1>
+<p style="color:white;font-size:30px;"><i>This page is on the usage of noodles.</i></p>
+	</header>
+	<!--Color of background:  #c8dff1  -->
+   
+<!--Page Links-->
+<a href="https://miacx.github.io/mainpage" style="color:white;font-size:20px;"><b>Home</b></a>
+<a href="https://miacx.github.io/noodles_origin" style="color:white;font-size:20px;"><b>Origin</b></a>
+<a href="https://miacx.github.io/noodles_varieties" style="color:white;font-size:20px;"><b>Varieties</b></a>
+<a href="https://miacx.github.io/noodles_reccomendations" style="color:white;font-size:20px;"><b>Reccomendations</b></a>
+
+</body>
