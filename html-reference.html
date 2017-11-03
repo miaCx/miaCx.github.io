@@ -1,55 +1,120 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>HTML Reference</title>
-</head>
-<body>
-<h1 style="font-size:40px">HTML Reference</h1>
-<hr>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HTML Reference</title>
+    <!--
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    -->
+  </head>
+  
+  <body>
+   
+    <h1 id="top">HTML Reference</h1>
+   
+    <table>
+      <tbody><tr>
+        <th>Name</th>
+        <th>Start Tag </th>
+        <th>End Tag </th>
+        <th>Usage Example</th>
+        <th>Display Example</th>
+      </tr>
+      <tr>
+        <td>HTML</a></td>
+        <td>&lt;html&gt;</td>
+        <td>&lt;/html&gt;</td>
+  <td>&lt;html&gt;&lt;/html&gt;</td>
+  		<td>N/A</td>
+      </tr>
+      <tr>
+        <td>Header</a></td>
+        <td>&lt;head&gt;</td>
+        <td>&lt;/head&gt;</td>
+        <td>&lt;head&gt;Define your title, CSS page, and add some metadata&lt;/head&gt;</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Title</a></td>
+        <td>&lt;title&gt;</td>
+        <td>&lt;/title&gt;</td>
+        <td>&lt;title&gt;Title&lt;/title&gt;</td>
+        <td>*The title of your page will be "Title". You will see it if you hover over the tab.</td>
+      </tr>
+      <tr>
+        <td>Headings</a></td>
+        <td>&lt;h1&gt;, &lt;h2&gt;, etc.</td>
+        <td>&lt;/h1&gt;, &lt;/h2&gt;, etc.</td>
+        <td>&lt;h1&gt;Heading 1&lt;/h1&gt;</td>
+        <td><h1>Heading</h1></td>
+      </tr>
+      </tr>
+      <tr>
+        <td>Paragraph</a></td>
+        <td>&lt;p&gt;</td>
+        <td>&lt;/p&gt;</td>
+        <td>&lt;p&gt;Paragraph&lt;/p&gt;</td>
+        <td><p>Paragraph</p></td>
+      </tr>
+      <tr>
+        <td>Breaks</a></td>
+        <td>&lt;br&gt;</td>
+        <td></td>
+        <td>&lt;p&gt;Noodles&lt;/p&gt;&lt;br&gt;&lt;p&gt;Noodles&lt;/p&gt;</td>
+        <td><p>Noodles</p><br><p>Noodles</p></td>
+      </tr>
+      <tr>
+        <td>Lines</a></td>
+        <td>&lt;hr&gt;</td>
+        <td></td>
+        <td>&lt;p&gt;Noodles&lt;/p&gt;&lt;hr&gt;&lt;p&gt;Noodles&lt;/p&gt;</td>
+        <td><p>Noodles</p><hr><p>Noodles</p></td>
+      </tr>
+      <tr>
+        <td>Comments</a></td>
+        <td>&lt;!--</td>
+        <td>--&gt;</td>
+        <td>&lt;!--This text will not show up--&gt;</td>
+        <td><!--This text will not show up--></td>
+      </tr>
+      <tr>
+        <td>Links</a></td>
+        <td>&lt;a&gt;</td>
+        <td>&lt;/a&gt;</td>
+        <td>&lt;a href=&quot;#top&quot;&gt;&lt;/a&gt;</td>
+        <td><a href="#top">Top</a></td>
+      </tr>
+      <tr>
+        <td>Images</a></td>
+        <td>&lt;img&gt;</td>
+        <td></td>
+        <td>&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mama_instant_noodle_block.jpg/1200px-Mama_instant_noodle_block.jpg&quot;&gt;</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mama_instant_noodle_block.jpg/1200px-Mama_instant_noodle_block.jpg" height="50px" width="50px"></td>
+      </tr>
+      <tr>
+        <td>Lists</a></td>
+        <td>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</td>
+        <td>&lt;/ul&gt;, &lt;/ol&gt;, &lt;/li&gt;</td>
+        <td>example</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Tables</a></td>
+        <td>&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;</td>
+        <td>&lt;/table&gt;, &lt;/tr&gt;, &lt;/th&gt;, &lt;/td&gt;</td>
+        <td>example</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Blocks</a></td>
+        <td>&lt;div&gt;</td>
+        <td>&lt;/div&gt;</td>
+        <td>example</td>
+        <td></td>
+      </tr>
+    </tbody></table>
+   
+    
+  
 
-<div style="background-color:green; color:white; text-align:center">
-<h1>Have some noodles.</h1>
-<h2>This is not sponsored.</h2>
-<p>Click the image to get some noodles.</p>
-</div>
-
-<!-- Noodles are tasty -->
-<a href="http://www.noodles.com/"><img src="http://www.noodles.com/wp-content/uploads/2017/09/9357-9357_HomepageBanner_L3.jpg" height="170px" width="600px"></a>
-
-<br>
-<p>Noodles are:</p>
-<ul>
-<li>Edible</li>
-<li>Delicious</li>
-<li>Nutricious</li>
-</ul>
-
-<p>Noodles are not:</p>
-<ol>
-<li>Nasty</li>
-<li>Weird</li>
-<li>Stinky</li>
-</ol>
-
-<table>
-  <tr>
-    <th>Noodles</th>
-    <th>Pizza</th>
-  </tr>
-  <tr>
-    <td>Good</td>
-    <td>Bad</td>
-  </tr>
-  <tr>
-  	<td>High class</td>
-    <td>Distasteful</td>
-  </tr>
-  <tr>
-  	<td>Wonderous</td>
-    <td>Lame</td>
-  </tr>
-</table>
-
-
-</body>
-</html>
+</body></html>
