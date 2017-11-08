@@ -1,10 +1,11 @@
 body {
     color: white;
     background-color: #add6ff;
-    width: 100%;
+    width: auto;
     border: 0;
-    padding: 0;
+    padding: 1%;
     margin: 0;
+    font-family: Courier New;
 }
 
 table, th, td {
@@ -12,11 +13,11 @@ table, th, td {
 }
 
 table {
-  width: 100%;
+  width: auto;
 }
 
 th, td {
-  padding: 2%;
+  padding: 1%;
 }
 
 th {
@@ -27,6 +28,26 @@ th {
   border: 1px solid #add6ff;
 }
 
-a, p {
+a, .link {
   color: #1b8279;
 }
+
+.header {
+  text-align: center;
+  font-size: 35px;
+  padding: 0;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.whitetext {
+  color: black;
+}
+
+
