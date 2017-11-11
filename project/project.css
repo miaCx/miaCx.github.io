@@ -1,14 +1,34 @@
-.content {
+
+.mainpage {
+  background-image: url('https://static01.nyt.com/images/2014/05/23/dining/Coconut-Noodles/Coconut-Noodles-superJumbo.jpg');
+  background-size: cover;
+  background-color: #c8dff1;
+  background-repeat: no-repeat;
+  font-family: Comic Sans MS;
   width: auto;
   border: 0;
   padding: 1%;
   margin: 0;
 }
- 
+
+.heading {
+  background-image: url('https://www.webstaurantstore.com/images/products/main/65795/385621/elbow-macaroni-20-1-lb-bags-case.jpg');
+  color:white;
+  font-size:60px;
+  padding: 4%;
+}
+
+.desc {
+  font-size: 23px;
+}
+
 body {
- background-image: url('https://static01.nyt.com/images/2014/05/23/dining/Coconut-Noodles/Coconut-Noodles-superJumbo.jpg');
- background-color: #c8dff1;
- font-family: Comic Sans MS;
+  background-color: #c8dff1;
+  font-family: Comic Sans MS;
+  width: auto;
+  border: 0;
+  padding: 1%;
+  margin: 0;
 }
 
 h1 {
@@ -17,7 +37,36 @@ h1 {
   font-family: Courier New;
 }
 
-a, p {
-  color:white;
- font-size:23px;
+h2 {
+   color:white;
 }
+
+a {
+  color:white;
+  font-size:23px;
+}
+
+p {
+  color: white;
+}
+
+.caption {
+  opacity: .8;
+  text-align: center;
+}
+
+.noodles_usage-image {
+  padding: .5%;
+  margin: auto;
+  height: auto;
+  width: 31%;
+}
+
+div {
+  padding: 1%;
+}
+
+img {
+  width: 100%;
+}
+
