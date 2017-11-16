@@ -185,3 +185,18 @@ li:before {
     color: white;
 }
 
+table, th, td {
+   border: 1px solid white;
+}
+
+table {
+  width: auto;
+}
+
+th, td {
+  padding: 1%;
+}
+
+th {
+  font-size: 20px;
+}
